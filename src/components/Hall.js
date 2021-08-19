@@ -10,7 +10,7 @@ const useStyles = makeStyles({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: 500,
+    height: 400,
     padding: 10,
   },
   paper: {
@@ -19,7 +19,7 @@ const useStyles = makeStyles({
     margin: 20,
     justifyContent: 'center',
     alignItems: 'center',
-    height: 500,
+    height: 400,
   },
 });
 
@@ -29,6 +29,7 @@ const Hall = () => {
   return (
     <div className={classes.container}>
       <Paper
+        elevation={10}
         className={classes.paper}
         style={{ backgroundColor: color }}
       ></Paper>
