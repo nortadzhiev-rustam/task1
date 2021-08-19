@@ -54,7 +54,7 @@ const Home = () => {
   return (
     <div className={classes.container}>
       <Paper className={classes.paper} elevation={10}>
-        <Typography variant='h1' color='initial'>
+        <Typography style={{fontWeight: 'bold'}} variant='h1' color='initial'>
           {`${hours < 10 ? '0' + hours : hours}` +
             ' : ' +
             `${minutes < 10 ? '0' + minutes : minutes}` +
