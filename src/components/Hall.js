@@ -5,18 +5,16 @@ import { useSelector } from 'react-redux';
 
 const useStyles = makeStyles({
   container: {
-    marginTop: 30,
-    width: '100%',
+    marginTop: 50,
+    width: '90%',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     height: 400,
-    padding: 10,
   },
   paper: {
     display: 'flex',
     width: '100%',
-    margin: 20,
     justifyContent: 'center',
     alignItems: 'center',
     height: 400,
